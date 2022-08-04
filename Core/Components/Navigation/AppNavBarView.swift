@@ -17,6 +17,13 @@ public class AppNavBarView: UIView {
     }()
     
     private var _buttonType: AppNavBarType = .back
+
+    private let imageLogo: UIImageView = {
+        $0.image = Assets.logo.image
+        $0.height(size: 50.0)
+        $0.width(size: 169.0)
+        return $0
+    }(UIImageView())
     
     private var rightButtonContainsText: Bool {
         switch buttonType {
@@ -56,7 +63,7 @@ public class AppNavBarView: UIView {
         
         super.init(frame: .zero)
         self.title.text = title
-        backgroundColor = Colors.twitter.color
+        backgroundColor = Colors.duffman.color
         containerView.backgroundColor = .white
         addComponents()
         createConstraints()
@@ -70,7 +77,6 @@ public class AppNavBarView: UIView {
     public override func layoutSubviews() {
         super.layoutSubviews()
         rightButton.imageView?.layer.cornerRadius = rightButton.bounds.height/2.0
-        containerView.roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
     }
 }
 
@@ -83,6 +89,8 @@ extension AppNavBarView {
         containerView.addSubview(containerStack, constraints: true)
 
         containerStack.addArrangedSubview(leftButton)
+        containerStack.addSpace(10.0)
+        containerStack.addArrangedSubview(imageLogo)
         containerStack.addArrangedSubview(title)
         containerStack.addArrangedSubview(rightButton)
 
@@ -131,15 +139,16 @@ extension AppNavBarView {
             setupLeftButton(image: Assets.iconBack.image)
 
         case .backAndTextAndRightButton:
-            setupLeftButton(image: Assets.iconBackRounded.image)
+            setupLeftButton(image: Assets.iconBack.image.tint(with: Colors.duffman.color))
+            setupRightButton(image: Assets.iconMenu.image.tint(with: Colors.duffman.color))
 
         case .none, .title:
             leftButton.isHidden = true
             rightButton.isHidden = true
 
         case .titleAndRight:
-            setupLeftButton(image: Assets.iconBack.image)
-
+            leftButton.isHidden = true
+            setupRightButton(image: Assets.iconMenu.image.tint(with: Colors.duffman.color))
         }
     }
 

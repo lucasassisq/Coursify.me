@@ -22,8 +22,11 @@ public enum Assets {
   public static let iconBack = ImageAsset(name: "iconBack")
   public static let iconBackRounded = ImageAsset(name: "iconBackRounded")
   public static let iconComment = ImageAsset(name: "iconComment")
+  public static let iconMenu = ImageAsset(name: "iconMenu")
   public static let iconNewPost = ImageAsset(name: "iconNewPost")
   public static let iconRetweet = ImageAsset(name: "iconRetweet")
+  public static let logoCoursifyW = ImageAsset(name: "logo-coursify-w")
+  public static let logo = ImageAsset(name: "logo")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

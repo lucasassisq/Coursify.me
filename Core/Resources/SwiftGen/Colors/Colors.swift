@@ -48,9 +48,9 @@ public struct Colors {
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#ecf0fa"></span>
   /// Alpha: 100% <br/> (0xecf0faff)
   public static let chefe = Colors(rgbaValue: 0xecf0faff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#92e5f9"></span>
-  /// Alpha: 100% <br/> (0x92e5f9ff)
-  public static let duffman = Colors(rgbaValue: 0x92e5f9ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#3cc6aa"></span>
+  /// Alpha: 100% <br/> (0x3cc6aaff)
+  public static let duffman = Colors(rgbaValue: 0x3cc6aaff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#0c0c0c"></span>
   /// Alpha: 100% <br/> (0x0c0c0cff)
   public static let eddie = Colors(rgbaValue: 0x0c0c0cff)
@@ -63,12 +63,12 @@ public struct Colors {
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#707070"></span>
   /// Alpha: 100% <br/> (0x707070ff)
   public static let gumble = Colors(rgbaValue: 0x707070ff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#298cdb"></span>
-  /// Alpha: 100% <br/> (0x298cdbff)
-  public static let heyman = Colors(rgbaValue: 0x298cdbff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#ff7e7e"></span>
-  /// Alpha: 100% <br/> (0xff7e7eff)
-  public static let homer = Colors(rgbaValue: 0xff7e7eff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#535353"></span>
+  /// Alpha: 100% <br/> (0x535353ff)
+  public static let heyman = Colors(rgbaValue: 0x535353ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#ffa900"></span>
+  /// Alpha: 100% <br/> (0xffa900ff)
+  public static let homer = Colors(rgbaValue: 0xffa900ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#de8500"></span>
   /// Alpha: 100% <br/> (0xde8500ff)
   public static let juliana = Colors(rgbaValue: 0xde8500ff)
@@ -78,15 +78,15 @@ public struct Colors {
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#59bc6c"></span>
   /// Alpha: 100% <br/> (0x59bc6cff)
   public static let krabappel = Colors(rgbaValue: 0x59bc6cff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#2ed4fa"></span>
-  /// Alpha: 100% <br/> (0x2ed4faff)
-  public static let krusty = Colors(rgbaValue: 0x2ed4faff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#2ab598"></span>
+  /// Alpha: 100% <br/> (0x2ab598ff)
+  public static let krusty = Colors(rgbaValue: 0x2ab598ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#fcfdff"></span>
   /// Alpha: 100% <br/> (0xfcfdffff)
   public static let lenny = Colors(rgbaValue: 0xfcfdffff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#0d91a8"></span>
-  /// Alpha: 100% <br/> (0x0d91a8ff)
-  public static let lisa = Colors(rgbaValue: 0x0d91a8ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#fda506"></span>
+  /// Alpha: 100% <br/> (0xfda506ff)
+  public static let lisa = Colors(rgbaValue: 0xfda506ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#000000"></span>
   /// Alpha: 100% <br/> (0x000000ff)
   public static let luann = Colors(rgbaValue: 0x000000ff)
@@ -96,9 +96,9 @@ public struct Colors {
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#ff9595"></span>
   /// Alpha: 100% <br/> (0xff9595ff)
   public static let manjula = Colors(rgbaValue: 0xff9595ff)
-  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#fbaf25"></span>
-  /// Alpha: 100% <br/> (0xfbaf25ff)
-  public static let marge = Colors(rgbaValue: 0xfbaf25ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#1abc9c"></span>
+  /// Alpha: 100% <br/> (0x1abc9cff)
+  public static let marge = Colors(rgbaValue: 0x1abc9cff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#8287ab"></span>
   /// Alpha: 100% <br/> (0x8287abff)
   public static let milhouse = Colors(rgbaValue: 0x8287abff)

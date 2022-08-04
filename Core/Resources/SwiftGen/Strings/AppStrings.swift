@@ -11,20 +11,22 @@ import Foundation
 public enum AppStrings {
   /// Cancel
   public static let cancel = AppStrings.tr("Localizable", "cancel")
-  /// Please, choose your user to go forward!
-  public static let chooseUserTitle = AppStrings.tr("Localizable", "chooseUserTitle")
-  /// Feed
-  public static let feedTitle = AppStrings.tr("Localizable", "feedTitle")
+  /// Quero conhecer a plataforma!
+  public static let footButton = AppStrings.tr("Localizable", "footButton")
+  /// O Coursify.me é uma plataforma de ensino a distância, onde qualquer pessoa ou empresa pode construir seu EAD e vender cursos pela internet.
+  public static let footDescription = AppStrings.tr("Localizable", "footDescription")
   /// Something wrong happened.
   public static let genericErrorMessage = AppStrings.tr("Localizable", "genericErrorMessage")
-  /// Say my name. We haven't any post yet.
-  public static let noPostsYet = AppStrings.tr("Localizable", "noPostsYet")
   /// Posterr
   public static let posterr = AppStrings.tr("Localizable", "posterr")
   /// Maybe will be better caul Saul!
   public static let posterrIt = AppStrings.tr("Localizable", "posterrIt")
   /// Profile
   public static let profileTitle = AppStrings.tr("Localizable", "profileTitle")
+  /// Leia mais
+  public static let readMore = AppStrings.tr("Localizable", "readMore")
+  /// VER MAIS ►
+  public static let seeMoreCell = AppStrings.tr("Localizable", "seeMoreCell")
   /// 777
   public static let totalCharacters = AppStrings.tr("Localizable", "totalCharacters")
 }

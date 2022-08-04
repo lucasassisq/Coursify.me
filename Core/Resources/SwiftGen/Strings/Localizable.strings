@@ -1,11 +1,12 @@
-// MARK: - ConfigEnvironmentView
+// MARK: - FootView
 
-"chooseUserTitle" = "Please, choose your user to go forward!";
+"footDescription" = "O Coursify.me é uma plataforma de ensino a distância, onde qualquer pessoa ou empresa pode construir seu EAD e vender cursos pela internet.";
 
-// MARK: - HomeFeedView
+// MARK: - HomeFeedCell
 
-"noPostsYet" = "Say my name. We haven't any post yet.";
-"feedTitle" = "Feed";
+"readMore" = "Leia mais";
+"seeMoreCell" = "VER MAIS ►";
+"footButton" = "Quero conhecer a plataforma!";
 
 // MARK: - NewPostView
 

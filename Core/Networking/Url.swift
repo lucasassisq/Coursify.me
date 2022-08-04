@@ -7,7 +7,7 @@ public class Url {
     // MARK: - Public variables
     
     public static let shared = Url()
-    public var baseUrl = "https://breakingbadapi.com/api/" // Url base api
+    public var baseUrl = "https://blog.coursify.me/wp-json/wp/v2/" // Url base api
 }
 
 public extension Url {
