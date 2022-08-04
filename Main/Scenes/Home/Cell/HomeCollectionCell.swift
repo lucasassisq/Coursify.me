@@ -21,8 +21,7 @@ final class HomeCollectionCell: UICollectionViewCell {
 
     let containerView = UIView()
 
-    let imgPhoto: UIImageView = {
-        $0.image = UIImage(systemName: "photo")        
+    let imgPhoto: UIImageView = {             
         return $0
     }(UIImageView())
 
@@ -60,6 +59,11 @@ final class HomeCollectionCell: UICollectionViewCell {
         DispatchQueue.main.async {
             self.containerView.roundCorners(corners: .allCorners, radius: 15.0)
         }
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imgPhoto.image = UIImage()
     }
 
 }
@@ -141,7 +145,7 @@ extension HomeCollectionCell: ViewProtocol {
             csscolor: "#868686",
             lineheight: 5,
             csstextalign: "left")
-        
+
         guard let viewModel = viewModel else { return }
         setupRx(viewModel)
         setImageCover(viewModel)
