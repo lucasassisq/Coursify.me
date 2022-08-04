@@ -11,14 +11,20 @@ protocol CollectionDelegate: AnyObject {
 
 final class CollectionViewController: ViewController<CollectionView> {
 
+    // MARK: - Internal variables
+
     let viewModel: CollectionViewModel
     let delegate: CollectionDelegate
+
+    // MARK: - Initializer
 
     init(viewModel: CollectionViewModel, delegate: CollectionDelegate) {
         self.viewModel = viewModel
         self.delegate = delegate
         super.init()
     }
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +37,7 @@ final class CollectionViewController: ViewController<CollectionView> {
 
 extension CollectionViewController {
 
+    // MARK: - Internal Methods
 
     func setupCollectionView() {
         customView.collectionView.delegate = self

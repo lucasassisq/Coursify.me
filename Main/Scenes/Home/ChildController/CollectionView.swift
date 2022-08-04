@@ -5,6 +5,8 @@ import Core
 
 final class CollectionView: UIView {
 
+    // MARK: - Internal variables
+
     let titleLabel = AppLabel(font: FontFamily.OpenSans.bold,
                               fontSize: 22.0,
                               textColor: Colors.krusty.color)
@@ -29,6 +31,8 @@ final class CollectionView: UIView {
                     forCellWithReuseIdentifier: HomeCollectionCell.reuseIdentifier)
         return $0
     }(UICollectionView(frame: .zero, collectionViewLayout: layout))
+
+    // MARK: - Initializer
 
     override init(frame: CGRect) {
         super.init(frame: .zero)

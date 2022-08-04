@@ -6,8 +6,12 @@ import WebKit
 
 final class ContentView: UIView {
 
+    // MARK: - Private variables
+
     private let scrollView = UIScrollView()
     private let containerView = UIView()
+
+    // MARK: Internal variables
 
     let navBarView = AppNavBarView(navButtonStyle: .backAndTextAndRightButton,
                                    backgroundColor: Colors.marge.color)
@@ -19,6 +23,8 @@ final class ContentView: UIView {
     let descriptionLabel = WKWebView()
 
     let footView = FootView()
+
+    // MARK: - Initializer
 
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -35,6 +41,8 @@ final class ContentView: UIView {
 // MARK: - Extension
 
 extension ContentView {
+
+    // MARK: - Internal methods
 
     func populate(post: Post) {
         titleLabel.attributedText = post.title.rendered.convertHtmlToAttributedStringWithCSS(
