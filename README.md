@@ -4,6 +4,11 @@ An application to visualize some contents from blog Coursify.me - Technical test
 ## Technologies
 Swift, SwiftLint, SwiftGen, ViewCode, MVVM, RxSwift, Multi-Module Architecture, Coordinators
 
+
+### Tricks 
+
+I used child view controllers to show my feed posts. I created a new view controller and put inside one collection view on my ViewController. After this, I included this content in one stack view vertical in my homeViewController and used delegate, to be able for handle the action when user tap some view in my collection list.
+
 ## Loom (Video showing application - Explaining in english) 
 
 <a href="https://www.loom.com/share/98072454d8fc471495dac75679e6066f">
